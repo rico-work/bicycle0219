@@ -283,7 +283,6 @@ a:hover {
 /* トップに戻る */
 .detail__back {
     margin-top: 60px;    /* 上の行までの距離 60 */
-    text-align: left;    /* テキストの開始位置に合わせるため左寄せ */
     text-align: center;
 }
 
@@ -410,3 +409,4 @@ a:hover {
     }
 
 }
+

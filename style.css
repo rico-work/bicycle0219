@@ -249,10 +249,13 @@ a:hover {
     margin-bottom: 30px;
 }
 
+/* ★ここを修正：タイトルとテキストを799pxの幅に収める */
 .detail__text-area {
-    /* ここも固定パディングがあれば 0 に */
-    padding-left: 0; 
+    max-width: 799px;    /* デザイン指定の幅 */
+    width: 100%;
+    margin: 0 auto;      /* 858pxの画像に対して中央に配置 */
     margin-bottom: 60px;
+    padding: 0;          /* PCでの余計なパディングをリセット */
 }
 
 /* テキストなどは左寄せにしたい場合はそのまま維持 */
@@ -405,4 +408,5 @@ a:hover {
         margin: 0 auto;         /* ★画像自体を中央に寄せる */
         display: block;         /* margin: 0 auto を効かせるために必要 */
     }
+
 }
